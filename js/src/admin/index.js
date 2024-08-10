@@ -31,5 +31,5 @@ app.initializers.add('datlechin/flarum-cbox', () => {
       label: app.translator.trans('datlechin-cbox.admin.settings.show_when_user_not_login'),
       help: app.translator.trans('datlechin-cbox.admin.settings.show_when_user_not_login_help'),
       type: 'boolean',
-    })
+    });
 });

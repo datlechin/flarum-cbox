@@ -4,7 +4,7 @@
 
 A [Flarum](http://flarum.org) extension to integrate Cbox with Flarum.
 
-With Cbox Integration, you can use Cbox Integration to achieve single sign-on. Users can log in or identify once with your site, and not have to enter their names again to post in your Cbox.
+With [Cbox](https://www.cbox.ws) Integration, you can use Cbox Integration to achieve single sign-on. Users can log in or identify once with your site, and not have to enter their names again to post in your Cbox.
 
 ![Cbox](./art/cbox.png)
 
