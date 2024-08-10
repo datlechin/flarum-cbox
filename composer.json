@@ -1,0 +1,62 @@
+{
+    "name": "datlechin/flarum-cbox",
+    "description": "Integrate Cbox with Flarum.",
+    "keywords": [
+        "flarum",
+        "cbox",
+        "chatbox"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Developer",
+            "homepage": "https://ngoquocdat.dev"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/datlechin/flarum-cbox",
+        "forum": "https://discuss.flarum.org/d/35127"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\FlarumCbox\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Cbox",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-comments",
+                "color": "#fff",
+                "backgroundColor": "#D3241C"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": false,
+                "js": true,
+                "jsCommon": false,
+                "css": false,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

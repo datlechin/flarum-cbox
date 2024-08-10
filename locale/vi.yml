@@ -1,0 +1,9 @@
+datlechin-cbox:
+  admin:
+    settings:
+      description: Bạn cần phiên bản Pro của Cbox. Đi đến <strong>Người dùng</strong> -> <strong>Hội nhập người dùng</strong> để kích hoạt tích hợp và lấy thông tin cần thiết.
+      secret: Mã bí mật
+      box_id: ID hộp
+      box_tag: Thẻ hộp
+      show_when_user_not_logged_in: Hiển thị khi người dùng chưa đăng nhập
+      show_when_user_not_logged_in_help: Hiển thị hộp chat ngay cả khi người dùng chưa đăng nhập
