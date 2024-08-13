@@ -44,10 +44,12 @@ class AddCboxIFrame
         if ($actor->exists) {
             $color = Color::stringToColor($actor->display_name);
 
+            $slug = $this->setting->get('slug_driver_Flarum\User\User') === 'default' ? 'username' : 'id';
+
             $params = [
                 ...$params,
                 'nme' => $actor->display_name,
-                'lnk' => $this->url->to('forum')->route('user', ['username' => $actor->username]),
+                'lnk' => $this->url->to('forum')->route('user', ['username' => $actor->$slug]),
                 'pic' => $actor->avatar_url ?? "https://ui-avatars.com/api/?background=$color&color=fff&name=D",
             ];
         }
